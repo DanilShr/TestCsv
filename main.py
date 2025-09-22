@@ -56,7 +56,7 @@ if __name__ == "__main__":
         "--value",
         "-v",
         type=str,
-        choices=["student", "teacher", "subject"],  # допустимые значения
+        choices=["student", "teacher", "subject"],
         default="student",
         required=False,
     )
